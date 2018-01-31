@@ -1,0 +1,116 @@
+		@font-face {
+				font-family: "bri";
+				src: url("britannic bold.ttf");
+		}
+		@font-face {
+			font-family: "eur";
+			src: url("Eurostile-ExtendedTwo.otf");
+		}	
+		@font-face {
+			font-family: "fangzheng";
+			src: url("方正兰亭纤黑简体.ttf");
+		}
+		*{
+				margin: 0;
+				padding:0;
+		}
+		
+			#timezone{
+				position: absolute;
+				top: 8.5%;
+   				right: 10%;
+					
+			}
+			.timefont{
+				font-family: helvetica;
+				font-size: 16px;
+				color: #b1063b;
+				background: -webkit-linear-gradient(top, #b1063b, #5a0d28);  
+				 -webkit-background-clip: text;         
+ 				-webkit-text-fill-color: transparent;
+			}
+			#day{
+				position: absolute;
+				top: 4%;
+    			right: 15.5%;
+			}
+			#month{
+				position: absolute;
+				top: 2%;
+    			right: 16%;
+			}
+			#nowtime{
+				position: absolute;
+				right: 7%;
+    			top: 2%;
+				
+				
+				
+			}
+			#times{
+				font-size: 52px;
+				
+				color: #ffffff;
+				
+				/*background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#f1faff), to(#283033));
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;*/
+				 	 background: -webkit-linear-gradient(top, #f1faff, #283033); 
+				 	 
+  					-webkit-background-clip: text;         /* 规定背景的划分区域 */
+ 					-webkit-text-fill-color: transparent; 
+			}
+			#months{
+				font-size: 24px;
+				color: #ffffff;
+				 background: -webkit-linear-gradient(top, #f1faff, #283033); 
+  				-webkit-background-clip: text;         
+ 				-webkit-text-fill-color: transparent; 
+			}
+			#days{
+				font-size: 24px;
+				color: #ff004d;
+				 background: -webkit-linear-gradient(top, #ff004d, #7f0026);  
+				 -webkit-background-clip: text;         
+ 				-webkit-text-fill-color: transparent;  
+	
+			}
+			.businessmap{
+			width: 12%;
+    		height: 15%;
+			position: absolute;
+			right: 22%;
+    		top: 43%;
+		}
+		.bussinesstext{
+			width: 7%;
+    		height: 8%;
+			position: absolute;
+			top: 27%;
+    		right: 31%;
+		}
+		.touch{
+			width: 6%;
+    		height: 5%;
+		}	
+		.bank{
+			position: absolute;
+			top: 19%;
+    		right: 29%;
+		}
+		.insurance{
+			position: absolute;
+			top: 23%;
+    		right: 36%;
+		}
+		.security{
+			position: absolute;
+			top: 29%;
+    		right: 37%;
+		}
+		.funds{
+			position: absolute;
+			top: 36%;
+   			right: 36%;;
+		}
+			

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<title></title>
+		<link rel="stylesheet" type="text/css" media="screen and (max-width:1367px)"   href="css/time.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (min-width:1378px)"  href="css/time1920.css" />
+		<link rel="stylesheet" type="text/css" href="css/pagestyle.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="leftbg">
+				<!--<img src="img/earth/left.png" />-->
+			</div>
+			<div class="rigthbg"></div>
+			<div id="timezone">
+				<font class="timefont">Beijing Time</font>
+			</div>
+			<div id="month">
+				<font id="months" style=" font-family: bri;"></font>
+			</div>
+			<div id="day">
+				<font id="days" style="font-family: eur;"></font>
+			</div>
+			<div id="nowtime">
+				<font id="times" style=" font-family: fangzheng;"></font>
+			</div>
+			<!--logo time-->
+			<!--第一张-->
+			<div class="earthpage">
+				<div class="earth-box" id="earth-asia">
+					
+				</div>
+			</div>
+			<!--第二张-->
+			<div class="oceaniapage">
+				<div class="asia-box">
+				</div>
+				<div class="asia-fix" id="asia-china"></div>
+			</div>
+			<!--第三张-->
+			<div class="businesspage">
+				<div class="businessmap" onclick="selectcn()"></div>
+				<div class=" bussinesstext" onclick="selectcn()"></div>
+				<div class="selectbusiness">
+					<div class="touch bank" ></div>
+					<div class="touch insurance" ></div>
+					<div class="touch security"></div>
+					<div class="touch funds"></div>
+					<div ></div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+		<script type="text/javascript" src="js/time.js" ></script>
+		<script type="text/javascript" src="js/zhweb.js" ></script>
+	</body>
+</html>
